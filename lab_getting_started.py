@@ -23,7 +23,7 @@ try:
         c.close()                # Close the connection
 
 except KeyboardInterrupt:        # catch Ctrl-C signals so that we shutdown nicely
-    pass:
+    pass
 
 finally:                        # make certain that the sockets get closed properly
     print('Shutdown')
