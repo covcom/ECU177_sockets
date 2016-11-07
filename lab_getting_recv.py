@@ -18,7 +18,7 @@ try:
 
             msg = rawmsg.decode('utf-8').rstrip('\r\n')    # convert and clean the input
             
-            rtrnmsg = msg[::-1].upper()            # create return message
+            rtrnmsg = msg[::-1]                    # create return message
             print( '%s -> %s' % (msg,rtrnmsg) )
 
             rtrnmsg = rtrnmsg + '\r\n'
